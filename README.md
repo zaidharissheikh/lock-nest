@@ -1,4 +1,4 @@
-# 🔐 Password Manager
+# 🔐 LockNest
 
 A simple and responsive password manager built as a personal learning project — available in two versions:
 - **MERN stack version** (with backend support)
