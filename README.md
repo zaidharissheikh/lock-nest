@@ -1,12 +1,52 @@
-# React + Vite
+# 🔐 Password Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive password manager built as a personal learning project — available in two versions:
+- **MERN stack version** (with backend support)
+- **Local storage version** (no backend)
 
-Currently, two official plugins are available:
+Both versions let you securely store, edit, delete, and copy your credentials. Built using **React (with Vite)** and a clean UI that works smoothly across devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Add website credentials (URL, username, password)
+- Store data in either:
+  - Local Storage (for quick offline access)
+  - MongoDB via a Node/Express backend (MERN version)
+- Edit and delete saved entries
+- Copy passwords to clipboard with a click
+- Responsive layout and clean UI
+- Animated icons for better user experience
+- Notifications powered by **React Toastify**
+
+---
+
+## 🛠️ Built With
+
+- **Frontend**: React + Vite, Tailwind CSS
+- **Backend** (MERN version): Node.js, Express.js, MongoDB
+- **Icons & UI Enhancements**: [Lordicon](https://lordicon.com/), React Toastify
+
+---
+
+## 📂 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/lock-nest.git
+cd lock-nest
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the Development Server
+
+```bash
+npm run dev
+```
